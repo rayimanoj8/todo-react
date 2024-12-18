@@ -2,6 +2,7 @@
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://<your-username>.github.io/<your-repository-name>",
   "dependencies": {
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
@@ -14,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +39,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^16.1.0",
+    "gh-pages": "^6.2.0",
     "web-vitals": "^4.2.4"
   }
 }
