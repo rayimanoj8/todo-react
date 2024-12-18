@@ -2,7 +2,7 @@
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/<your-repository-name>",
+  "homepage": "https://rayimanoj8.github.io/todo-react",
   "dependencies": {
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
